@@ -16,3 +16,7 @@ function signIn() {
         location.replace("./upload-docs.html") // window.open("./upload-docs.html", target = "_self")
     }
 }
+
+function dwnld(path) {
+    window.open(path, null)
+}
