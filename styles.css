@@ -97,9 +97,3 @@ h4 {
 .doc-lock-img-1 {
     width: 180px;
 }
-
-/* view-docs.ejs */
-.my-table {
-    width: 80%;
-    column-gap: 15px;
-}
