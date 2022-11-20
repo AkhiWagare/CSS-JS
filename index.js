@@ -17,6 +17,6 @@ function signIn() {
     }
 }
 
-function dwnld(path) {
-    window.open(path, null)
+function dwnld() {
+    window.open("D:/Akhi/PRMIT&amp;R/Sem - 5/DBMS/DocLock/public/data_files/1668970194313.pdf", null)
 }
