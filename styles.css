@@ -1,0 +1,99 @@
+body {
+    background-color: #CDFCF6;
+    text-align: center;
+}
+
+#project-title {
+    margin: 50px 0 50px 0;
+}
+
+#head-title {
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+#sub-title {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+}
+
+.my-card {
+    border-radius: 10px;
+    width: 450px;
+}
+
+#upload-btn:hover,
+#sign-in-btn:hover {
+    background-image: -webkit-linear-gradient(top, #3491d9, #4eb8c4);
+    background-image: -moz-linear-gradient(top, #3491d9, #4eb8c4);
+    background-image: -ms-linear-gradient(top, #3491d9, #4eb8c4);
+    background-image: -o-linear-gradient(top, #3491d9, #4eb8c4);
+    background-image: linear-gradient(to bottom, #3491d9, #4eb8c4);
+}
+
+#upload-btn,
+#sign-in-btn {
+    margin-top: 2%;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* upload-docs.html */
+h4 {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+}
+
+#documents-img {
+    width: 450px;
+}
+
+.img-div {
+    margin: auto;
+}
+
+.document-form {
+    padding: 0 10%;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.my-navbar {
+    margin-bottom: 70px;
+    /* font-size: 100px; */
+    color: black;
+}
+
+.doc-lock-navbar {
+    background-color: #81C6E8;
+    /* color: black; */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* #3491d9 */
+}
+
+@media (max-width: 1028px) {
+    .card-div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* index.html */
+.sign-in {
+    display: flex;
+    justify-content: center;
+}
+
+#sign-in-btn {
+    text-align: center;
+    width: 30%;
+}
+
+.doc-lock-img-1 {
+    width: 180px;
+}
