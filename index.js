@@ -4,8 +4,6 @@ function uploadDocs() {
         alert('Please upload pdf file only!');
         return false;
     }
-
-    // location.replace("./insert.html")
 }
 
 function signIn() {
