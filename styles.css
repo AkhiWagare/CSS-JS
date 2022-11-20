@@ -101,4 +101,5 @@ h4 {
 /* view-docs.ejs */
 .my-table {
     width: 80%;
+    column-gap: 15px;
 }
